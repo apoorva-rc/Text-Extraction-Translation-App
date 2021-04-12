@@ -1,2 +1,2 @@
-web:gunicorn menu:appp --host=0.0.0.0 --port=${PORT:-8000}
+web:uvicorn menu:appp --host=0.0.0.0 --port=${PORT:-8000}
 
