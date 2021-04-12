@@ -53,5 +53,4 @@ class AwesomeApp(App):
         return MyLayout()
 
 
-if __name__ == '__main__':
-    AwesomeApp().run()
+app= AwesomeApp().run()
