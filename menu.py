@@ -52,5 +52,4 @@ class AwesomeApp(App):
     def build(self):
         return MyLayout()
 
-
-app= AwesomeApp().run()
+appp = AwesomeApp().run()
